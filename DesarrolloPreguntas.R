@@ -164,5 +164,4 @@ AreaRectangulo(30,15,10,5)
 for( i in listaDeNumeros){
   print(i)
 }
-#La ventaja de este codigo es que da un resultado automaticamente con solo poner el nombre de la lista.
-
+#El loop "for" se utiliza cuando se conoce la iteracion que se va a ocupar. En una lista o un rango nos facilita recabar solo lo que necesitamos, ayuda a llevar un orden al operar con rangos y listas.
