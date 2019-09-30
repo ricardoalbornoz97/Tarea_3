@@ -137,7 +137,7 @@ Division(3,4)
 #El resultado que genera la suma es [1] 7, la resta da [1] -1, la multiplicacion [1] 12 y la division [1] 0.75.
 
 
-##Ejercicio 10 : Cree dos funciones, una que genere la diferencia entre las áreas de dos rectángulos(área sombreada figura 1) y otra de las áreas de un círculo (área sombreada figura 2), como muestran las siguientes figuras:  
+##Ejercicio 11 : Cree dos funciones, una que genere la diferencia entre las áreas de dos rectángulos(área sombreada figura 1) y otra de las áreas de un círculo (área sombreada figura 2), como muestran las siguientes figuras:  
 
 #Circulo
 #Anillo: double double -> double
@@ -146,17 +146,18 @@ Division(3,4)
 AreaAnillo<-function(radio1,radio2){
   abs((pi*radio1^2)-(pi*(radio2^2)))
 }
-AreaAnillo(7,3)
-AreaAnillo(6,2)
-#Ej.1: AreaAnillo(7.3), da como resultado [1] 125.6637
-#Ej.2: AreaAnillo(6,2), da como resultado [1] 100.531
+AreaAnillo(8,5)
+AreaAnillo(6,4)
+#Ej.1: AreaAnillo(7.3), da como resultado [1] 122.5221
+#Ej.2: AreaAnillo(6,2), da como resultado [1] 62.83185
 
 #Rectangulo:
 AreaRectangulo<-function(base1,altura1,base2,altura2){
   abs((base1*altura1)-(base2*altura2))
 }
-AreaRectangulo(20,10,10,5)
-# La funcion da como resultado [1] 150
+AreaRectangulo(30,15,10,5)
+
+# La funcion da como resultado [1] 400
 
 ##Ejercicio optativo:
 

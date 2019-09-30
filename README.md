@@ -82,15 +82,17 @@ Guia de Listas y FOR-LOOP - DESARROLLO
 
 #El resultado que genera la suma es [1] 7, la resta da [1] -1, la multiplicacion [1] 12 y la division [1] 0.75.
 
+
 ##Ejercicio 11 : Cree dos funciones, una que genere la diferencia entre las áreas de dos rectángulos(área sombreada figura 1) y otra de las áreas de un círculo (área sombreada figura 2), como muestran las siguientes figuras:  
+
 #Circulo
 #Anillo: double double -> double
 #Anillo: Diferencia de Areas
-#Rectangulo
-#Ej.1: AreaAnillo(7.3), da como resultado [1] 125.6637
-#Ej.2: AreaAnillo(6,2), da como resultado [1] 100.531
-# La funcion da como resultado [1] 150
+#Ej.1: AreaAnillo(7.3), da como resultado [1] 122.5221
+#Ej.2: AreaAnillo(6,2), da como resultado [1] 62.83185
 
+#Rectangulo:
+# La funcion da como resultado [1] 400
 ##Ejercicio optativo:
 #La ventaja de este codigo es que da un resultado automaticamente con solo poner el nombre de la lista.
 
