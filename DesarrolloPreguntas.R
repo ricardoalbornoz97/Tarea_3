@@ -87,7 +87,7 @@ print(paste("cuento",i,"misisipis"))
 #Ejercicio 7 : Adapte el código anterior para que imprima los elementos de la lista que se
 #creó anteriormente.
 for(i in listaDeNumeros){print(paste("elemento",i," de listaDeNumeros"))}
-}
+
 ## al cambiar i por listaDeNumeros, se crea una secuencia correspondiente con los valores de la lista.
 
 #Ejercicio 8 : Usando los condicionales vistas en clases, adapte el código anterior para que
